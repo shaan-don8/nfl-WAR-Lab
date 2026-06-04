@@ -18,8 +18,9 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+
 BASE_DIR = Path(__file__).resolve().parent
-DATA_DIR = BASE_DIR / "data"
+DATA_DIR = BASE_DIR
 
 TEAM_CODE_MAP = {
     "ARZ": "ARI",
